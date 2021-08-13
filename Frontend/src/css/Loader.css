@@ -1,0 +1,18 @@
+#spinner {
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: fixed;
+  z-index: 1031; /* High z-index so it is on top of the page */
+  top: calc(50% - (50px / 2)); /* where ... is the element's height */
+  right: calc(50% - (50px / 2)); /* where ... is the element's width */
+}
+
+#fullspinner {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+  position: absolute;
+  overflow: hidden;
+}

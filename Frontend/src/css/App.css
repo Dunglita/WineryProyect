@@ -1,0 +1,22 @@
+#main {
+  transition: margin-right 0.5s;
+}
+.vinoTexto > P {
+  font-size: 25px;
+}
+.vino > img {
+  max-width: 50%;
+  float: left;
+}
+.vino > p {
+  font-size: 25px;
+}
+
+.back {
+  height: 100vh;
+  width: 100%;
+}
+
+#animal > img {
+  width: 100%;
+}

@@ -1,0 +1,89 @@
+.bg_color {
+  width: 100%;
+  height: 38%;
+  background: #2196f3;
+  position: absolute;
+  top: 0;
+}
+
+.wave {
+  width: 6000px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background-image: url(../Assets/Imagenes/ola.svg);
+  background-position: bottom;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.w1 {
+  animation: w1 7s linear infinite;
+}
+
+.w2 {
+  animation: w2 7s linear -0.125s infinite,
+    desplazamiento 7s ease -0.125s infinite;
+  opacity: 0.5;
+}
+
+@keyframes w1 {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes w2 {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes desplazamiento {
+  0%,
+  100% {
+    transform: translateY(-25px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}
+.wrapper {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+}
+#form-content {
+  display: block;
+  padding: 20px 20px 20px 20px;
+  border-radius: 16px;
+  margin: auto;
+  position: relative;
+  z-index: 999999;
+  background-color: rgba(203, 18, 240, 0.5);
+  height: fit-content;
+}
+#curve {
+  border-radius: 16px;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../Assets/Fonts/montserrat-v15-latin_cyrillic-regular.woff2);
+}
+#form-content > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: montserrat;
+}

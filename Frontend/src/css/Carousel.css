@@ -1,0 +1,29 @@
+/*Carousel*/
+.carousel {
+  height: 100vh;
+}
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+}
+.slides {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#slide1 {
+  background-image: url(../Assets/Imagenes/Nuevas/fondo-home.jpg);
+}
+#slide2 {
+  background-image: url(../Assets/Imagenes/Nuevas/header-28c.jpg);
+}
+#slide3 {
+  background-image: url(../Assets/Imagenes/Nuevas/header-03c.jpg);
+}

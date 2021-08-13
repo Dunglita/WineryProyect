@@ -1,0 +1,43 @@
+/* FIXME: sidebar width 25% para pantallas grande 30% para pequeñas */
+#sidebarMenu {
+  z-index: 9999;
+  height: 100vh;
+  width: 25%;
+  background-color: indianred;
+  transition: 0.5s;
+}
+#sidebarMenu ul {
+  padding-top: 0px;
+}
+#sidebarMenu ul li a {
+  color: antiquewhite;
+  display: block;
+  padding: 0px;
+  margin-left: 35px;
+  font-size: 2em;
+  font-weight: bold;
+}
+#sidebarMenu ul li a:hover {
+  color: coral;
+  background: none;
+  text-decoration: none;
+}
+#cerrarSideNavbar a {
+  color: antiquewhite;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-left: 80%;
+}
+#cerrarSideNavbar a:hover {
+  color: coral;
+  background: none;
+  text-decoration: none;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
