@@ -1,0 +1,26 @@
+{
+  "name": "wineryproyect",
+  "version": "1.0.0",
+  "description": "This is my first (also still in development) web proyect working with React and Node, feel free to take a look.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dunglita/WineryProyect.git"
+  },
+  "author": "Daniel Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dunglita/WineryProyect/issues"
+  },
+  "homepage": "https://github.com/Dunglita/WineryProyect#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
